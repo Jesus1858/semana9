@@ -1,0 +1,11 @@
+#Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
+
+
+ge = int(input("¿Cuántos años tienes? "))
+for i in range(ge):
+    print("Has cumplido " + str(i+1) + " años")
+
+    
+#los bucles for:se utiliza para ejecutar repetidamente un bloque de código. Los bucles for son una parte fundamental de la mayoría de los lenguajes de programación.
+#STR:se utiliza para representar texto, más conocido en el mundo de la programación como string o cadena de caracteres. Poniéndome un poco más técnico, el tipo str es 
+# una secuencia inmutable de caracteres Unicode.
