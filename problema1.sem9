@@ -1,0 +1,15 @@
+#Tema Estructuras repetitivas para algoritmos enpseudocódigo y en Python
+
+
+#Estructura repetitiva:Una estructura repetitiva permite ejecutar una instrucción o un conjunto de instrucciones varias veces.
+
+#Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces
+
+
+word = input("Introduce una palabra: ")
+for i in range(10):
+    print(word)
+
+
+
+#los bucles for:se utiliza para ejecutar repetidamente un bloque de código. Los bucles for son una parte fundamental de la mayoría de los lenguajes de programación.
