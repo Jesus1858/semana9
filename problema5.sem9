@@ -1,0 +1,16 @@
+
+#Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y 
+# muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión.
+
+
+amount = float(input("¿Cantidad a invertir? "))
+interest = float(input("¿Interés porcentual anual? "))
+years = int(input("¿Años?"))
+for i in range(years):
+    amount *= 1 + interest / 100 
+    print("Capital tras " + str(i+1) + " años: " + str(round(amount, 2)))
+
+
+#los bucles for:se utiliza para ejecutar repetidamente un bloque de código. Los bucles for son una parte fundamental de la mayoría de los lenguajes de programación.
+#STR:se utiliza para representar texto, más conocido en el mundo de la programación como string o cadena de caracteres. Poniéndome un poco más técnico, el tipo str es 
+# una secuencia inmutable de caracteres Unicode.
